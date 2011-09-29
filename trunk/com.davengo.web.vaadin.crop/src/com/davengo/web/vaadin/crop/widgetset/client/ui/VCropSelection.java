@@ -1,5 +1,6 @@
 package com.davengo.web.vaadin.crop.widgetset.client.ui;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
 /**
@@ -9,7 +10,9 @@ import java.util.Arrays;
  * 
  * @author Eric Seckler
  */
-public class VCropSelection {
+public class VCropSelection implements Serializable {
+	private static final long serialVersionUID = 5895271369238034372L;
+
 	public enum Edge {
 		TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 	}
