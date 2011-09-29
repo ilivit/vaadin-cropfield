@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: CropField
+Implementation-Version: 1.0.0
+Vaadin-Package-Version: 1
+Class-Path: 
+Vaadin-Widgetsets: com.davengo.web.vaadin.crop.widgetset.CropWidgetset
+

@@ -1,0 +1,7 @@
+@import url(../reindeer/styles.css);
+
+.v-label {
+	line-height: 23px;
+	font-size: 13px;
+	font-weight: bold;
+}
